@@ -1,0 +1,17 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "cpp",
+  "workspaceFolder": "/workspaces/cpp",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bazelbuild.vscode-bazel",
+        "editorconfig.editorconfig",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.makefile-tools",
+        "visualstudioexptteam.vscodeintellicode"
+      ]
+    }
+  }
+}
