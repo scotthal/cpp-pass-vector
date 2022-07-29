@@ -10,7 +10,7 @@ struct volunteer {
   std::vector<std::string> tags;
 };
 
-std::vector<std::string> PassVector(std::vector<volunteer> volunteers);
+std::vector<std::string> PassVector(const std::vector<volunteer>& volunteers);
 }  // namespace pass_vector
 
 #endif  // EXPERIMENTAL_USERS_SCOTTHAL_TESTS_CC_PASS_VECTOR_PASS_VECTOR_H_

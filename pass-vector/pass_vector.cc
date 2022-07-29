@@ -6,7 +6,7 @@
 #include <vector>
 
 namespace pass_vector {
-std::vector<std::string> PassVector(std::vector<volunteer> volunteers) {
+std::vector<std::string> PassVector(const std::vector<volunteer>& volunteers) {
   std::vector<std::string> ids = {};
 
   for (const auto& volunteer : volunteers) {

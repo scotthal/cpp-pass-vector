@@ -1,7 +1,5 @@
-exercise
-*.o
 .vscode/*.log
-bazel-bin/
-bazel-cpp-pass-vector/
-bazel-out/
-bazel-testlogs/
+bazel-bin
+bazel-cpp-pass-vector
+bazel-out
+bazel-testlogs
